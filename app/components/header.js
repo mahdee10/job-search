@@ -10,7 +10,7 @@ export default function Header() {
     return (
         <div className=" lin">
 
-        <div className="flex  sm:flex-row flex-col">
+        <div className="flex  sm:flex-row flex-col mx-auto 2xl:container ">
             <div className="sm:px-24 sm:pt-7 sm:w-3/5 bg-f2f2f2 ">
                 <Nav></Nav>
                 <div className="sm:pt-36 pt-20 sm:bg-f2f2f2 bg-fbfbfb">

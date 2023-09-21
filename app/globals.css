@@ -8,3 +8,7 @@
   margin: 0;
   font-family: 'Poppins', sans-serif;
 }
+
+.lin{
+  background: linear-gradient(to right, #f2f2f2 62%, #00cc99 38%);
+}

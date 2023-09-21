@@ -8,9 +8,10 @@ import location from "../../public/imgs/location.png"
 import s from "../../public/imgs/ser.png"
 export default function Header() {
     return (
-        <div className=" bg-f2f2f2  ">
-            <div className="flex  sm:flex-row flex-col mx-auto 2xl:container ">
-            <div className="sm:px-24 sm:pt-7 sm:w-3/5">
+        <div className=" lin">
+
+        <div className="flex  sm:flex-row flex-col">
+            <div className="sm:px-24 sm:pt-7 sm:w-3/5 bg-f2f2f2 ">
                 <Nav></Nav>
                 <div className="sm:pt-36 pt-20 sm:bg-f2f2f2 bg-fbfbfb">
                     <h1 className="sm:text-5xl font-black sm:text-left text-center text-3xl">Search, Find, & Apply</h1>
@@ -31,7 +32,9 @@ export default function Header() {
             </div>
 
 
-            <div className="  bg-teal-400 rounded-bl-3xl  sm:w-2/5">
+            
+            <div className="  bg-my-green rounded-bl-3xl  sm:w-2/5">
+                <div className="bg-my-green">
                 <div className="pl-44 pr-24 pt-7 justify-around items-center sm:flex hidden">
                     <a className="block text-center no-underline text-white font-bold text-xl" href="/">Sign in</a>
                     <button className="flex items-center justify-center gap-2 bg-white py-2 px-3 rounded-lg font-bold ">
@@ -61,6 +64,11 @@ export default function Header() {
 
             </div>
             </div>
+
+
+
         </div>
+        </div>
+
     )
 }

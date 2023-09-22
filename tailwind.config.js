@@ -17,7 +17,7 @@ module.exports = {
         'f2f2f2': '#f2f2f2',
         'f9f9f9': '#f9f9f9',
         'fbfbfb': '#fbfbfb',
-      },
+      }
     },
   },
   plugins: [],

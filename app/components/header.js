@@ -22,9 +22,9 @@ export default function Header() {
                 </div>
                 <div className="pt-16 pb-20 sm:bg-f2f2f2 bg-fbfbfb sm:px-0 px-7">
                     <div className="sm:p-5 p-3 bg-white rounded-md flex justify-between ">
-                        <input className="bg-f9f9f9 sm:pl-3 pl-2 py-3 rounded-md w-2/5 sm:text-sm text-xs" type="text" value="Job title or Keyword" readOnly></input>
-                        <input className="bg-f9f9f9 sm:pl-3 pl-2  py-3 rounded-md w-1/3 sm:text-sm text-xs" type="text" value="Location" readOnly></input>
-                        <button className="bg-my-green py-3 sm:px-6  text-white rounded-md sm:w-15 sm:text-sm text-xs w-14">Search</button>
+                        <input className="bg-f9f9f9 sm:pl-3 pl-2 sm:py-3 py-2 rounded-md w-2/5 sm:text-sm text-xs" type="text" value="Job title or Keyword" readOnly></input>
+                        <input className="bg-f9f9f9 sm:pl-3 pl-2  sm:py-3 py-2 rounded-md w-1/3 sm:text-sm text-xs" type="text" value="Location" readOnly></input>
+                        <button className="bg-my-green sm:py-3 py-2 sm:px-5 px-2.5   text-white rounded-md  sm:text-sm text-xs ">Search</button>
                     </div>
                 </div>
 
@@ -45,18 +45,18 @@ export default function Header() {
                 <div className="pt-16 ">
                     <div className="px-20">
                         <div className="sm:w-20  sm:h-20 w-12 h-12 bg-white flex items-center justify-center rounded-lg -rotate-6">
-                            <Image src={search} alt="Search Icon" />
+                            <Image className="sm:w-10 sm:h-10 w-5 h-5" src={search} alt="Search Icon" />
                         </div>
                     </div>
                     <div className="pr-16">
                         <div className="sm:w-20 sm:h-20 w-12 h-12 bg-white flex items-center justify-center rounded-lg rotate-6 ml-auto">
-                            <Image src={stats} alt="Search Icon" />
+                            <Image className="sm:w-10 sm:h-10 w-5 h-5" src={stats} alt="Search Icon" />
                         </div>
                     </div>
 
                     <div className="px-24 py-16">
                         <div className="sm:w-20 sm:h-20 w-12 h-12 bg-white flex items-center justify-center rounded-lg -rotate-12">
-                            <Image src={defend} alt="Search Icon" />
+                            <Image className="sm:w-10 sm:h-10 w-5 h-5" src={defend} alt="Search Icon" />
                         </div>
                     </div>
 

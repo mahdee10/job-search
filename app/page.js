@@ -1,6 +1,8 @@
 import Image from 'next/image'
 import './globals.css'
 import Header from './components/header'
+import How from './components/section1'
+
 export default function Home() {
   return (
     <div>
@@ -9,6 +11,7 @@ export default function Home() {
           rel="stylesheet"
         />
       <Header></Header>
+      <How></How>
     </div>
   )
 }

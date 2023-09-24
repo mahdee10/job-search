@@ -22,9 +22,9 @@ export default function Header() {
                 </div>
                 <div className="pt-16 pb-20 sm:bg-f2f2f2 bg-fbfbfb sm:px-0 px-7">
                     <div className="sm:p-5 p-3 bg-white rounded-md flex justify-between ">
-                        <input className="bg-f9f9f9 sm:pl-3 pl-2 sm:py-3 py-2 rounded-md w-2/5 sm:text-sm text-xs" type="text" value="Job title or Keyword" readOnly></input>
-                        <input className="bg-f9f9f9 sm:pl-3 pl-2  sm:py-3 py-2 rounded-md w-1/3 sm:text-sm text-xs" type="text" value="Location" readOnly></input>
-                        <button className="bg-my-green sm:py-3 py-2 sm:px-5 px-2.5   text-white rounded-md  sm:text-sm text-xs ">Search</button>
+                        <input className="bg-f9f9f9 sm:pl-3 pl-2 sm:py-3 py-2 rounded-md w-2/5 sm:text-sm text-xxs" type="text" value="Job title or Keyword" readOnly></input>
+                        <input className="bg-f9f9f9 sm:pl-3 pl-2  sm:py-3 py-2 rounded-md w-1/3 sm:text-sm text-xxs" type="text" value="Location" readOnly></input>
+                        <button className="bg-my-green sm:py-3 py-2 sm:px-5 px-2.5   text-white rounded-md  sm:text-sm text-xxs ">Search</button>
                     </div>
                 </div>
 

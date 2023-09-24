@@ -17,6 +17,18 @@ module.exports = {
         'f2f2f2': '#f2f2f2',
         'f9f9f9': '#f9f9f9',
         'fbfbfb': '#fbfbfb',
+        'ffffff': '#ffffff',
+        '8a8a8a': '#8a8a8a',
+      },
+      
+      width: {
+        '15': '15%',
+        'q': '24%',
+        'h': '48%',
+      },
+      fontSize:{
+        'xxs':'0.7rem',
+        'xxxs':'0.5rem'
       }
     },
   },

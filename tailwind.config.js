@@ -20,12 +20,15 @@ module.exports = {
         'ffffff': '#ffffff',
         '8a8a8a': '#8a8a8a',
         '969696': '#969696',
+        'c4c4c4': '#c4c4c4',
       },
       
       width: {
         '15': '15%',
+        '54': '54%',
         'q': '24%',
         'h': '48%',
+        'th': '504px',
       },
       fontSize:{
         'xxs':'0.7rem',

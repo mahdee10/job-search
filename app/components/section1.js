@@ -27,14 +27,25 @@ export default function How(){
         }
     ]
     return(
-        <section className="sm:px-24 px-12 sm:pt-20 sm:pb-20 bg-fbfbfb">
-            <h3 className="font-black text-2xl pt-14">How it works</h3>
-            <div className=" image-container flex  justify-between flex-row  flex-wrap  pt-10">
+        <div className="bg-fbfbfb">
+        <section className="sm:px-24 px-12 sm:pt-20 sm:pb-20 mx-auto 2xl:container pb-10">
+            <div className="flex flex-wrap sm:flex-row flex-col items-center">
 
+            <h3 className="order-1 font-black text-2xl pt-14 w-full">How it works</h3>
+            <p className="order-2 text-969696 sm:w-9/12 sm:pr-60 pt-5 w-full pr-3 sm:text-base text-xs">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Sed quis locus non orgi euismod vestibulum vitoo ut ex, 
+            Quisque ut orcu of lectus tristique пистосьвоттносьтитоя
+            </p>
+            <button className="sm:order-3 order-4 text-my-green border-my-green sm:py-3 py-2 sm:px-5 px-2.5  border-2 rounded-lg w-fit sm:mt-0 mt-1">Learn more</button>
+            <div className="sm:order-4 order-3 image-container flex  justify-between flex-row  flex-wrap  pt-10">
                     {banner.map((banner) => (
                         <Banner key={banner.title} title={banner.title} details={banner.details} path={banner.path} />
                     ))}
                 </div>
+            </div>
+
         </section>
+        </div>
     )
 }

@@ -19,6 +19,7 @@ module.exports = {
         'fbfbfb': '#fbfbfb',
         'ffffff': '#ffffff',
         '8a8a8a': '#8a8a8a',
+        '969696': '#969696',
       },
       
       width: {

@@ -21,6 +21,7 @@ module.exports = {
         '8a8a8a': '#8a8a8a',
         '969696': '#969696',
         'c4c4c4': '#c4c4c4',
+        'eef9f6':'#eef9f6'
       },
       
       width: {

@@ -30,6 +30,10 @@ module.exports = {
         'q': '24%',
         'h': '48%',
         'th': '504px',
+        'jw': '446px',
+      },
+      height:{
+        'jh':"510px"
       },
       fontSize:{
         'xxs':'0.7rem',

@@ -3,6 +3,7 @@ import './globals.css'
 import Header from './components/header'
 import How from './components/section1'
 import Categories from './components/categories'
+import Jobs from './components/jobs'
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Header></Header>
       <How></How>
       <Categories></Categories>
+      <Jobs></Jobs>
     </div>
   )
 }

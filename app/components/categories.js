@@ -5,9 +5,15 @@ import pro from "../../public/imgs/pro.png"
 import sup from "../../public/imgs/sup.png"
 import Image from 'next/image'
 import CategoryBanner from "./cbanners"
+import MySwiperComponent from "./cswiper"
 
 export default function Categories() {
     const cats = [
+        {
+            title: "Desig and Development",
+            content: "350 Job Vacancy",
+            path: brain
+        },
         {
             title: "Accounting and Finance",
             content: "350 Job Vacancy",
@@ -39,7 +45,7 @@ export default function Categories() {
                     Qulsguo ul arou allectus tristiaue auctor sil arnot at turpis.
                 </p>
 
-                <div className=" image-container flex  justify-between flex-row   pt-10 ">
+                {/* <div className=" image-container flex  justify-between flex-row   pt-10 ">
                     <div className="bg-my-green sm:pl-9 pl-3 sm:pr-7 pr-4 flex flex-col rounded-2xl sm:w-64 sm:h-60 w-28 h-24 content-end sm:mb-0 mb-3 shrink-0 sm:mr-7 mr-6">
                         <Image className='sm:pt-9 pt-3 sm:w-fit sm:h-20 w-fit sm:h-10 h-7' src={brain} alt="Search Icon"></Image>
                         <h4 className='sm:font-black font-bold sm:text-xl text-xxs sm:pt-7 pt-2 sm:pr-10 text-white'>Design and Development</h4>
@@ -48,6 +54,10 @@ export default function Categories() {
                     {cats.map((cat) => (
                         <CategoryBanner key={cat.title} title={cat.title} content={cat.content} path={cat.path} />
                     ))}
+                </div> */}
+                
+                <div className="pt-10">
+                <MySwiperComponent cats={cats} />
                 </div>
 
                 <div className="flex justify-center pt-5">

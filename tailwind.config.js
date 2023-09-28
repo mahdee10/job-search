@@ -33,7 +33,8 @@ module.exports = {
         'jw': '446px',
       },
       height:{
-        'jh':"510px"
+        'jh':"510px",
+        'fh':"474px"
       },
       fontSize:{
         'xxs':'0.7rem',

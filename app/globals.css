@@ -12,3 +12,13 @@
 .lin{
   background: linear-gradient(to right, #f2f2f2 62%, #00cc99 38%);
 }
+.hov:hover ,
+.hov:hover p{
+  color: white !important ;
+  background-color: #00cc99 !important;
+}
+
+.hov:hover .m{
+  filter: brightness(0) invert(1) !important;
+  
+}

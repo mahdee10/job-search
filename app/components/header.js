@@ -11,9 +11,9 @@ export default function Header() {
         <div className=" lin">
 
             <div className="flex  sm:flex-row flex-col mx-auto 2xl:container ">
-                <div className="sm:px-24 sm:pt-7 sm:w-3/5 bg-f2f2f2  ">
+                <div className="sm:pl-24 sm:pr-20 sm:pt-7 sm:w-3/5 bg-f2f2f2  ">
                     <Nav></Nav>
-                    <div className="sm:pt-36 pt-20 sm:bg-f2f2f2 bg-fbfbfb sm:px-0 px-7">
+                    <div className="sm:pt-36 pt-20 sm:bg-f2f2f2 bg-fbfbfb sm:pl-0 sm:pr-10 px-7 pr-7">
                         <h1 className="sm:text-5xl font-black sm:text-left text-center text-3xl">Search, Find, & Apply</h1>
                         <p className="pt-5 font-medium text-justify ">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis lacus non orci
@@ -21,13 +21,33 @@ export default function Header() {
                         </p>
                     </div>
                     <div className="pt-16 pb-20 sm:bg-f2f2f2 bg-fbfbfb sm:px-0 px-7">
-                    <div className="sm:p-5 p-3 bg-white rounded-md flex justify-between ">
-                        <input className="bg-f9f9f9 sm:pl-3 pl-2 sm:py-3 py-2 rounded-md w-2/5 sm:text-sm text-xxs" type="text" value="Job title or Keyword" readOnly></input>
-                        <input className="bg-f9f9f9 sm:pl-3 pl-2  sm:py-3 py-2 rounded-md w-1/3 sm:text-sm text-xxs" type="text" value="Location" readOnly></input>
-                        <button className="bg-my-green sm:py-3 py-2 sm:px-5 px-2.5   text-white rounded-md  sm:text-sm text-xxs ">Search</button>
-                        
+                        {/* <div className="sm:p-5 p-3 bg-white rounded-md flex justify-between ">
+                            <input className="bg-f9f9f9 sm:pl-3 pl-2 sm:py-3 py-2 rounded-md w-2/5 sm:text-sm text-xxs" type="text" value="Job title or Keyword" readOnly></input>
+                            <input className="bg-f9f9f9 sm:pl-3 pl-2  sm:py-3 py-2 rounded-md w-1/3 sm:text-sm text-xxs" type="text" value="Location" readOnly></input>
+                            <button className="bg-my-green sm:py-3 py-2 sm:px-5 px-2.5   text-white rounded-md  sm:text-sm text-xxs ">Search</button>
+
+                        </div> */}
+
+
+                        <div className="sm:p-3 p-3 bg-white rounded-md flex justify-between ">
+                            <div className='flex pl-2 bg-f9f9f9 sm:w-2/5 w-fit  rounded-xl sm:text-base text-xxxs items-center'>
+                                <Image className='mr-1  sm:w-fit sm:h-fit w-2 h-2' src={s} alt="Search Icon"></Image>
+                                <input className="sm:w-36 bg-f9f9f9 sm:pl-1  sm:py-3 py-2 rounded-md  sm:text-sm text-xxs w-28" type="text" value="Job title or Keyword" readOnly></input>
+                            </div>
+                            <div className='flex pl-2 bg-f9f9f9   rounded-xl sm:w-1/3 w-24 sm:text-base text-xxxs items-center'>
+                                <Image className='mr-1   sm:w-fit sm:h-fit w-2 h-2' src={location} alt="Search Icon"></Image>
+                                <select id="myDropdown" className="bg-f9f9f9 sm:pl-1 pl-1  sm:py-3 py-2 rounded-md sm:text-sm text-xxs w-fit">
+                                    <option value="" disabled selected hidden>Location</option>
+                                    <option value="option1">Option 1</option>
+                                    <option value="option2">Option 2</option>
+                                    <option value="option3">Option 3</option>
+                                </select>
+                            </div>
+                            <button className="bg-my-green sm:py-3 py-2 sm:px-5 px-2.5   text-white rounded-md  sm:text-sm text-xxs ">Search</button>
+
+                        </div>
+
                     </div>
-                </div>
                 </div>
 
 

@@ -60,11 +60,11 @@ const MySwiperComponent = ({ jobs }) => {
             </p>
 
             <div className="flex justify-between sm:w-11/12">
-                <div className='flex justify-between bg-f9f9f9 sm:px-3 sm:py-2 px-1 py-1 rounded-xl sm:text-base text-xxxs'>
+                <div className='flex items-center  justify-between bg-f9f9f9 sm:px-3 sm:py-2 px-1 py-1 rounded-xl sm:text-base text-xxxs'>
                     <Image className=' sm:mr-3 mr-1 sm:w-fit sm:h-fit w-2 h-2' src={location} alt="Search Icon"></Image>
                     San Francisco, CA
                 </div>
-                <div className='flex justify-between bg-f9f9f9 sm:px-3 sm:py-2 px-1 py-1 rounded-xl sm:text-base text-xxxs'>
+                <div className='flex items-center  justify-between bg-f9f9f9 sm:px-3 sm:py-2 px-1 py-1 rounded-xl sm:text-base text-xxxs'>
                     <Image className=' sm:mr-3 mr-1 sm:w-fit sm:h-fit w-2 h-2' src={jobb} alt="Search Icon"></Image>
                     Full Time
                 </div>

@@ -37,10 +37,10 @@ export default function Header() {
                             <div className='flex pl-2 bg-f9f9f9   rounded-xl sm:w-1/3 w-24 sm:text-base text-xxxs items-center'>
                                 <Image className='mr-1   sm:w-fit sm:h-fit w-2 h-2' src={location} alt="Search Icon"></Image>
                                 <select id="myDropdown" className="bg-f9f9f9 sm:pl-1 pl-1  sm:py-3 py-2 rounded-md sm:text-sm text-xxs w-fit">
-                                    <option value="" disabled selected hidden>Location</option>
-                                    <option value="option1">Option 1</option>
-                                    <option value="option2">Option 2</option>
-                                    <option value="option3">Option 3</option>
+                                    <option defaultValue="" disabled selected hidden>Location</option>
+                                    <option defaultValue="option1">Option 1</option>
+                                    <option defaultValue="option2">Option 2</option>
+                                    <option defaultValue="option3">Option 3</option>
                                 </select>
                             </div>
                             <button className="bg-my-green sm:py-3 py-2 sm:px-5 px-2.5   text-white rounded-md  sm:text-sm text-xxs ">Search</button>

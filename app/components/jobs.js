@@ -24,6 +24,11 @@ export default function Jobs() {
             content: "XReact Tech",
             path: prod
         },
+        {
+            title: "Product Designer",
+            content: "XReact Tech",
+            path: prod
+        },
     ]
     return (
         <div className="bg-fbfbfb">

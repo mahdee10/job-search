@@ -22,7 +22,6 @@ const MySwiperComponent = ({ jobs }) => {
     return (
       <Swiper
         modules={[Navigation]} // Add EffectCoverflow module
-        spaceBetween={50}
         slidesPerView={1}
         effect="coverflow" // Enable coverflow effect
         onSwiper={(swiper) => console.log(swiper)}
@@ -33,16 +32,16 @@ const MySwiperComponent = ({ jobs }) => {
 
         breakpoints={{
           '@0.00': {
-            slidesPerView: 1,
-            spaceBetween: 10,
+            slidesPerView: 2,
+            spaceBetween: 100,
           },
           '@0.75': {
             slidesPerView: 2,
             spaceBetween: 20,
           },
           '@1.00': {
-            slidesPerView: 2,
-            spaceBetween: 40,
+            slidesPerView: 3,
+            spaceBetween: 300,
           },
           
         }}

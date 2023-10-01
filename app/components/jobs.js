@@ -25,14 +25,14 @@ export default function Jobs() {
             path: prod
         },
         {
-            title: "Product Designer",
+            title: "Product Designers",
             content: "XReact Tech",
             path: prod
         },
     ]
     return (
         <div className="bg-fbfbfb">
-            <section className="sm:px-24 px-12 sm:pt-8 sm:pb-20 mx-auto 2xl:container pb-10 overflow-hidden">
+            <section className="sm:px-24 px-12 sm:pt-8 sm:pb-12 mx-auto 2xl:container pb-10 overflow-hidden">
                 <h3 className="font-black sm:text-3xl text-2xl pt-14 w-full text-center">Recently Added Jobs</h3>
                 <p className="text-969696 pt-5 sm:text-base text-xs text-center sm:px-44">
                     Lorarn ipsum dolor sit amnet, consoctotur ad piscing oft.
@@ -46,13 +46,13 @@ export default function Jobs() {
                     ))}
                 </div> */}
             </section>
-            <section className="sm:px-24 px-12 sm:pt-8 sm:pb-20 mx-auto 2xl:container pb-10 overflow-hidden">
+            <section className="sm:px-24 px-12 sm:pt-5  mx-auto 2xl:container  overflow-hidden">
 
-                <div className="pt-10">
+                <div className="">
                     <MySwiperComponent jobs={jobs} />
                 </div>
             </section>
-            <section className="sm:px-24 px-12 sm:pt-8 sm:pb-20 mx-auto 2xl:container pb-10 overflow-hidden">
+            <section className="sm:px-24 px-12 sm:pt-5 sm:pb-20 mx-auto 2xl:container pb-10 overflow-hidden">
                 <div className="flex justify-center pt-5">
                     <button className=" text-my-green border-my-green sm:py-3 py-2 sm:px-5 px-2.5  border-2 rounded-lg w-fit sm:text-base text-sm">View more</button>
 

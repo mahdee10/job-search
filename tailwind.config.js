@@ -21,7 +21,8 @@ module.exports = {
         '8a8a8a': '#8a8a8a',
         '969696': '#969696',
         'c4c4c4': '#c4c4c4',
-        'eef9f6':'#eef9f6'
+        'eef9f6':'#eef9f6',
+        '003A2C':"#003A2C"
       },
       
       width: {
@@ -31,10 +32,13 @@ module.exports = {
         'h': '48%',
         'th': '504px',
         'jw': '446px',
+        'fw': '1240px',
+
       },
       height:{
         'jh':"510px",
-        'fh':"474px"
+        'fh':"474px",
+        'ffh':"322px"
       },
       fontSize:{
         'xxs':'0.7rem',

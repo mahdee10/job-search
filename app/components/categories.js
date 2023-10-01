@@ -10,7 +10,7 @@ import MySwiperComponent from "./cswiper"
 export default function Categories() {
     const cats = [
         {
-            title: "Desig and Development",
+            title: "Design and Development",
             content: "350 Job Vacancy",
             path: brain
         },
@@ -34,6 +34,12 @@ export default function Categories() {
             content: "350 Job Vacancy",
             path: sup
         },
+        {
+            title: "Bank Instituions",
+            content: "350 Job Vacancy",
+            path: bank
+        },
+        
     ]
     return (
         <div className="bg-eef9f6">

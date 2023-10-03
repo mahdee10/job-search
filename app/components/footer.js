@@ -10,7 +10,7 @@ export default function Footer() {
             
             <div className="relative bg-my-green">
             <div className="flex  justify-center 2 absolute left-1/2 transform -translate-x-1/2 top-0 transform -translate-y-1/2 ">
-                <div className="sm:py-5 bg-003A2C sm:w-fw sm:h-fhh sm:rounded-3xl rounded flex justify-center flex-col items-center w-80  p-5">
+                <div className="sm:py-10 bg-003A2C sm:w-fw sm:h-fhh sm:rounded-3xl rounded flex justify-center flex-col items-center w-80  p-5">
 
                     <h3 className="font-black text-white sm:text-3xl text-base  w-full text-center ">Register your CV now</h3>
                     <p className="text-white sm:pt-5 pb-5 sm:text-base text-xxxs text-center pt-2">

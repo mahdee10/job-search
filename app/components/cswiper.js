@@ -52,7 +52,10 @@ const MySwiperComponent = ({ cats }) => {
         </div>
           </SwiperSlide>
         ))}
+        <SwiperSlide></SwiperSlide>
+
       </Swiper>
+      
     );
   };
   

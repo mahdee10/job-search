@@ -77,6 +77,8 @@ const MySwiperComponent = ({ jobs }) => {
         </div>
           </SwiperSlide>
         ))}
+        <SwiperSlide></SwiperSlide>
+
       </Swiper>
     );
   };

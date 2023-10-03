@@ -66,8 +66,8 @@ export default function Categories() {
                 <MySwiperComponent cats={cats} />
                 </div>
 
-                <div className="flex justify-center pt-5">
-                    <button className=" text-my-green border-my-green sm:py-3 py-2 sm:px-5 px-2.5  border-2 rounded-lg w-fit sm:text-base text-sm">View more</button>
+                <div className="flex justify-center sm:pt-7 pt-5">
+                    <button className=" text-my-green  border-my-green sm:py-3 py-2 sm:px-5 px-2.5  border-2 rounded-lg w-fit sm:text-base text-sm">View more</button>
 
                 </div>
 

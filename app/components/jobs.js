@@ -52,13 +52,13 @@ export default function Jobs() {
                     <MySwiperComponent jobs={jobs} />
                 </div>
             </section>
-            <section className="sm:px-24 px-12 sm:pt-5 sm:pb-20 mx-auto 2xl:container pb-10 overflow-hidden">
+            <section className="sm:px-24 px-12 sm:pt-3 sm:pb-20 mx-auto 2xl:container pb-10 overflow-hidden">
                 <div className="flex justify-center pt-5">
                     <button className=" text-my-green border-my-green sm:py-3 py-2 sm:px-5 px-2.5  border-2 rounded-lg w-fit sm:text-base text-sm">View more</button>
 
                 </div>
 
-                <h3 className="font-black sm:text-3xl text-2xl pt-20 w-full sm:text-left text-center sm:px-0 px-4">People's Feedback about JobNow!</h3>
+                <h3 className="font-black sm:text-4xl text-2xl pt-20 w-full sm:text-left text-center sm:px-0 px-4">People's Feedback about JobNow!</h3>
 
 
                 <div className="flex sm:flex-row flex-col sm:justify-between items-center">
@@ -79,8 +79,16 @@ export default function Jobs() {
                                 Full Stack Developer  in Xreact Tech
                             </p>
                             <div className='flex   rounded-xl sm:text-base text-xxxs sm:justify-start justify-center'>
-                                <Image className=' sm:mr-3 mr-1 sm:w-fit sm:h-fit w-2 h-2' src={l} alt="Search Icon"></Image>
-                                <Image className=' sm:mr-3 mr-1 sm:w-fit sm:h-fit w-2 h-2' src={r} alt="Search Icon"></Image>
+                                <a href="/">
+                                    <Image className=' sm:mr-3 mr-1 sm:w-fit sm:h-fit w-2 h-2' src={l} alt="Search Icon"></Image>
+
+                                </a>
+                                <a href="/">
+                                    <Image className=' sm:mr-3 mr-1 sm:w-fit sm:h-fit w-2 h-2' src={r} alt="Search Icon"></Image>
+
+
+                                </a>
+                                
                             </div>
                         </div>
 

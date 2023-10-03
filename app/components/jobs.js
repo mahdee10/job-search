@@ -80,11 +80,11 @@ export default function Jobs() {
                             </p>
                             <div className='flex   rounded-xl sm:text-base text-xxxs sm:justify-start justify-center'>
                                 <a href="/">
-                                    <Image className=' sm:mr-3 mr-1 sm:w-fit sm:h-fit w-5 h-5' src={l} alt="Search Icon"></Image>
+                                    <Image className=' sm:mr-3 mr-1 sm:w-16 sm:h-16 w-5 h-5' src={l} alt="Search Icon"></Image>
 
                                 </a>
                                 <a href="/">
-                                    <Image className=' sm:mr-3 mr-1 sm:w-fit sm:h-fit w-5 h-5' src={r} alt="Search Icon"></Image>
+                                    <Image className=' sm:mr-3 mr-1 sm:w-16 sm:h-16 w-5 h-5' src={r} alt="Search Icon"></Image>
 
 
                                 </a>
@@ -104,8 +104,8 @@ export default function Jobs() {
                             Full Stack Developer  in Xreact Tech
                         </p>
                         <div className='flex   rounded-xl sm:text-base text-xxxs sm:justify-start justify-center'>
-                            <Image className=' sm:mr-3 mr-1 sm:w-fit sm:h-fit w-5 h-5' src={l} alt="Search Icon"></Image>
-                            <Image className=' sm:mr-3 mr-1 sm:w-fit sm:h-fit w-5 h-5' src={r} alt="Search Icon"></Image>
+                            <Image className=' sm:mr-3 mr-1 sm:w-fit sm:h-fit w-8 h-8' src={l} alt="Search Icon"></Image>
+                            <Image className=' sm:mr-3 mr-1 sm:w-fit sm:h-fit w-8 h-8' src={r} alt="Search Icon"></Image>
                         </div>
                     </div>
 

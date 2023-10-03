@@ -47,14 +47,14 @@ export default function Nav() {
                         <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 1h15M1 7h15M1 13h15" />
                     </svg>
                 </button>
-                <div className={`w-full md:w-auto ${isMenuOpen ? "block" : "hidden"}`} id="navbar-default">
-                    <div className="nav flex space-between flex-col md:flex-row  md:mt-0 md:border-0">
-                <a className={`sm:mr-12 text-center sm:px-0 sm:py-0 px-5 py-3.5 no-underline font-bold text-xl hover:bg-my-green hover:text-white ${isMenuOpen ? "block" : "hidden"}`} href="/">Home</a>
-                <a className={`sm:mr-12 text-center sm:px-0 sm:py-0 px-5 py-3.5 no-underline font-bold text-xl hover:bg-my-green hover:text-white ${isMenuOpen ? "block" : "hidden"}`} href="/">Job</a>
-                <a className={`sm:mr-12 text-center sm:px-0 sm:py-0 px-5 py-3.5 no-underline font-bold text-xl hover:bg-my-green hover:text-white ${isMenuOpen ? "block" : "hidden"}`} href="/">About Us</a>
-                <a className={` text-center no-underline sm:px-0 sm:py-0 px-5 py-3.5 font-bold text-xl hover:bg-my-green hover:text-white ${isMenuOpen ? "block" : "hidden"}`} href="/">Contact</a>
-                <a className={`sm:hidden text-center no-underline sm:px-0 sm:py-0 px-5 py-3.5 font-bold text-xl hover:bg-my-green hover:text-white ${isMenuOpen ? "block" : "hidden"}`} href="/">Sign In</a>
-                <a className={`sm:hidden text-center no-underline sm:px-0 sm:py-0 px-5 py-3.5 font-bold text-xl hover:bg-my-green hover:text-white ${isMenuOpen ? "block" : "hidden"}`} href="/">Create Account</a>
+                <div className={`w-full md:w-auto  ${isMenuOpen ? "block" : "hidden"}`} id="navbar-default">
+                    <div className="nav w-full sm:static absolute flex space-between flex-col md:flex-row  md:mt-0 md:border-0">
+                <a className={`sm:mr-12 sm:bg-transparent bg-f2f2f2 text-center sm:px-0 sm:py-0 px-5 py-3.5 no-underline font-bold text-xl hover:bg-my-green hover:text-white ${isMenuOpen ? "block" : "hidden"}`} href="/">Home</a>
+                <a className={`sm:mr-12 text-center sm:bg-transparent bg-f2f2f2 sm:px-0 sm:py-0 px-5 py-3.5 no-underline font-bold text-xl hover:bg-my-green hover:text-white ${isMenuOpen ? "block" : "hidden"}`} href="/">Job</a>
+                <a className={`sm:mr-12 text-center sm:bg-transparent bg-f2f2f2 sm:px-0 sm:py-0 px-5 py-3.5 no-underline font-bold text-xl hover:bg-my-green hover:text-white ${isMenuOpen ? "block" : "hidden"}`} href="/">About Us</a>
+                <a className={` text-center no-underline sm:bg-transparent bg-f2f2f2 sm:px-0 sm:py-0 px-5 py-3.5 font-bold text-xl hover:bg-my-green hover:text-white ${isMenuOpen ? "block" : "hidden"}`} href="/">Contact</a>
+                <a className={`sm:hidden text-center sm:bg-transparent bg-f2f2f2 no-underline sm:px-0 sm:py-0 px-5 py-3.5 font-bold text-xl hover:bg-my-green hover:text-white ${isMenuOpen ? "block" : "hidden"}`} href="/">Sign In</a>
+                <a className={`sm:hidden text-center sm:bg-transparent bg-f2f2f2 no-underline sm:px-0 sm:py-0 px-5 py-3.5 font-bold text-xl hover:bg-my-green hover:text-white ${isMenuOpen ? "block" : "hidden"}`} href="/">Create Account</a>
                 </div></div>
             </div>
         </nav>

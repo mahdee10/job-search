@@ -49,7 +49,7 @@ const MySwiperComponent = ({ jobs }) => {
       >
         {jobs.map((job, index) => (
           <SwiperSlide key={job.title}>
-           <div className="bg-ffffff cursor-pointer sm:pl-9 pl-3 sm:pr-7 pr-4 flex flex-col rounded-2xl sm:w-jw sm:h-jh w-44 h-52 content-end sm:mb-0 mb-3 shrink-0 sm:mr-7 mr-6">
+           <div className="bg-ffffff cursor-pointer sm:pl-9 pl-3 sm:pr-7 pr-4 flex flex-col rounded-2xl sm:w-jw sm:h-jh w-48 h-60 content-end sm:mb-0 mb-3 shrink-0 sm:mr-7 mr-6">
             <Image className='sm:pt-9 pt-3 sm:w-fit sm:h-24 w-fit sm:h-10 h-7' src={job.path} alt="Search Icon"></Image>
             <h4 className='sm:font-black font-bold sm:text-xl text-xxs sm:pt-7 pt-2  '>{job.title}</h4>
             <p className="sm:text-xxs text-xxxs sm:pt-4 pt-2 sm:pb-4 pb-2 text-8a8a8a">{job.content}</p>
@@ -71,7 +71,7 @@ const MySwiperComponent = ({ jobs }) => {
 
             </div>
 
-            <p className="sm:font-black font-bold sm:text-xl text-xxs sm:pt-7 pt-2 text-my-green">Apply Now <span className='ml-5'>&gt;</span></p>
+            <p className="sm:font-black font-bold sm:text-xl text-xxs sm:pt-7 pt-5 text-my-green">Apply Now <span className='ml-5'>&gt;</span></p>
             
 
         </div>

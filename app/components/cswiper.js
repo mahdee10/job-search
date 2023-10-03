@@ -29,7 +29,7 @@ const MySwiperComponent = ({ cats }) => {
         breakpoints={{
           '@0.00': {
             slidesPerView: 3,
-            spaceBetween: 100,
+            spaceBetween: 50,
           },
           '@0.75': {
             slidesPerView: 3,

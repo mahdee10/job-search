@@ -32,7 +32,7 @@ export default function Header() {
                         <div className="sm:p-3 p-3 bg-white sm:rounded-lgg rounded-md flex justify-between ">
                             <div className='flex pl-2 bg-f9f9f9 sm:w-2/5 w-fit sm:rounded-lgg rounded-md sm:text-base text-xxxs items-center'>
                                 <Image className='mr-1  sm:w-fit sm:h-fit w-2 h-2' src={s} alt="Search Icon"></Image>
-                                <input className="sm:w-36 bg-f9f9f9 sm:pl-1  sm:py-3 py-2 rounded-md  sm:text-sm text-xxs w-32" type="text" value="Job title or Keyword" readOnly></input>
+                                <input className="sm:w-36 bg-f9f9f9 sm:pl-1  sm:py-3 py-2 rounded-md  sm:text-sm text-xxs w-28" type="text" value="Job title or Keyword" readOnly></input>
                             </div>
                             <div className='flex pl-2 bg-f9f9f9 sm:rounded-lgg  rounded-md sm:w-1/3 w-24 sm:text-base text-xxxs items-center'>
                                 <Image className='mr-1   sm:w-fit sm:h-fit w-2 h-2' src={location} alt="Search Icon"></Image>

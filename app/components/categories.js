@@ -43,7 +43,7 @@ export default function Categories() {
     ]
     return (
         <div className="bg-eef9f6">
-            <section className="sm:px-24 px-12 sm:pt-8 sm:pb-20 mx-auto 2xl:container pb-10 overflow-hidden">
+            <section className="sm:px-24 px-5 sm:pt-8 sm:pb-20 mx-auto 2xl:container pb-10 overflow-hidden">
                 <h3 className="font-black sm:text-3xl text-2xl pt-14 w-full text-center">Popular Job Categories</h3>
                 <p className="text-969696 pt-5 sm:text-base text-xs text-center sm:px-44">
                     Lorarn ipsum dolor sit amnet, consoctotur ad piscing oft.

@@ -23,7 +23,7 @@ export default function Footer() {
                     </div>
                 </div>
             </div>
-            <div className="3  flex justify-between sm:px-24 px-12 sm:pt-8 sm:pb-12 mx-auto 2xl:container pb-10 overflow-hidden sm:pt-20 pt-10 flex-wrap">
+            <div className="3  flex justify-between sm:px-24 px-5 sm:pt-8 sm:pb-12 mx-auto 2xl:container pb-10 overflow-hidden sm:pt-20 pt-10 flex-wrap">
                 <div className="flex items-center flex-col sm:pt-32 sm:w-80 w-full">
                     <h3 className="font-black text-white sm:text-4xl text-2xl pt-14 w-full "><span className="text-black">Job</span>Now</h3>
                     <p className="text-white sm:text-base  text-xxxs sm:pt-5 pt-1 sm:pb-9 pb-2  sm:pr-10 pr-20">
@@ -71,9 +71,18 @@ export default function Footer() {
                 <div className="flex  flex-col sm:pt-32 w-fit">
                     <h3 className="font-black text-white sm:text-2xl text-xs sm:pt-14 pt-5 w-full ">Contact Us</h3>
                     <div className="text-white sm:text-base  text-xxxs sm:pt-3 pt-1  pb-2  flex">
-                    <Image className=' sm:mr-3 mr-1 sm:w-fit sm:h-fit w-2 h-2' src={f} alt="Search Icon"></Image>
-                    <Image className=' sm:mr-3 mr-1 sm:w-fit sm:h-fit w-2 h-2' src={l} alt="Search Icon"></Image>
-                    <Image className=' sm:mr-3 mr-1 sm:w-fit sm:h-fit w-2 h-2' src={t} alt="Search Icon"></Image>
+                        <a href='/'>
+                    <Image className=' sm:mr-3 mr-1 sm:w-fit sm:h-fit w-3.5 h-3.5' src={f} alt="Search Icon"></Image>
+                            
+                        </a>
+                        <a href='/'>
+                        <Image className=' sm:mr-3 mr-1 sm:w-fit sm:h-fit w-3.5 h-3.5' src={l} alt="Search Icon"></Image>
+
+                        </a>
+                        <a href='/'>
+                    <Image className=' sm:mr-3 mr-1 sm:w-fit sm:h-fit w-3.5 h-3.5' src={t} alt="Search Icon"></Image>
+
+                        </a>
 
                     </div>
                     

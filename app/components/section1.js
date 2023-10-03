@@ -28,8 +28,8 @@ export default function How() {
     ]
     return (
         <div className="bg-fbfbfb">
-            <section className="sm:px-24 px-12 sm:pt-20 sm:pb-20 mx-auto 2xl:container pb-10">
-                <div className="flex flex-wrap sm:flex-row flex-col items-center">
+            <section className="sm:px-24 px-5 sm:pt-20 sm:pb-20 mx-auto 2xl:container pb-10">
+                <div className="flex flex-wrap sm:flex-row flex-col items-center justify-between">
 
                     <h3 className="order-1 font-black sm:text-4xl text-2xl pt-14 w-full">How it works</h3>
                     <p className="order-2 text-969696 sm:w-9/12 sm:pr-60 pt-5 w-full pr-3 sm:text-base text-xs">

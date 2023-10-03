@@ -27,17 +27,17 @@ export default function Nav() {
     }, []);
 
     const toggleMenu = () => {
-        // setIsMenuOpen(!isMenuOpen);
+        setIsMenuOpen(!isMenuOpen);
     };
 
     return (
         <nav className="w-full">
-            <div className="flex sm:justify-between items-center justify-evenly">
+            <div className="flex   sm:justify-start  flex-wrap  items-center justify-evenly">
 
-                <a className="block sm:py-0 text-center no-underline sm:text-4xl font-black text-5xl py-7" href="/">Job<span className="text-my-green">Now</span></a>
+                <a className="block sm:mr-44 sm:py-0 text-center no-underline sm:text-4xl font-black text-5xl py-7 w-5" href="/">Job<span className="text-my-green">Now</span></a>
                 <button
                     type="button"
-                    className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100"
+                    className="inline-flex ml-32 items-center p-2 w-10 h-10 justify-center text-sm text-my-green rounded-lg md:hidden hover:text-white"
                     aria-controls="navbar-default"
                     aria-expanded={isMenuOpen ? "true" : "false"}
                     onClick={toggleMenu}
@@ -47,11 +47,15 @@ export default function Nav() {
                         <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 1h15M1 7h15M1 13h15" />
                     </svg>
                 </button>
-                <a className={` text-center no-underline font-bold text-xl ${isMenuOpen ? "block" : "hidden"}`} href="/">Home</a>
-                <a className={` text-center no-underline font-bold text-xl ${isMenuOpen ? "block" : "hidden"}`} href="/">Job</a>
-                <a className={` text-center no-underline font-bold text-xl ${isMenuOpen ? "block" : "hidden"}`} href="/">About Us</a>
-                <a className={` text-center no-underline font-bold text-xl ${isMenuOpen ? "block" : "hidden"}`} href="/">Contact</a>
-
+                <div className={`w-full md:w-auto ${isMenuOpen ? "block" : "hidden"}`} id="navbar-default">
+                    <div className="nav flex space-between flex-col md:flex-row  md:mt-0 md:border-0">
+                <a className={`sm:mr-12 text-center sm:px-0 sm:py-0 px-5 py-3.5 no-underline font-bold text-xl hover:bg-my-green hover:text-white ${isMenuOpen ? "block" : "hidden"}`} href="/">Home</a>
+                <a className={`sm:mr-12 text-center sm:px-0 sm:py-0 px-5 py-3.5 no-underline font-bold text-xl hover:bg-my-green hover:text-white ${isMenuOpen ? "block" : "hidden"}`} href="/">Job</a>
+                <a className={`sm:mr-12 text-center sm:px-0 sm:py-0 px-5 py-3.5 no-underline font-bold text-xl hover:bg-my-green hover:text-white ${isMenuOpen ? "block" : "hidden"}`} href="/">About Us</a>
+                <a className={` text-center no-underline sm:px-0 sm:py-0 px-5 py-3.5 font-bold text-xl hover:bg-my-green hover:text-white ${isMenuOpen ? "block" : "hidden"}`} href="/">Contact</a>
+                <a className={`sm:hidden text-center no-underline sm:px-0 sm:py-0 px-5 py-3.5 font-bold text-xl hover:bg-my-green hover:text-white ${isMenuOpen ? "block" : "hidden"}`} href="/">Sign In</a>
+                <a className={`sm:hidden text-center no-underline sm:px-0 sm:py-0 px-5 py-3.5 font-bold text-xl hover:bg-my-green hover:text-white ${isMenuOpen ? "block" : "hidden"}`} href="/">Create Account</a>
+                </div></div>
             </div>
         </nav>
     )

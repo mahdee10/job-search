@@ -32,7 +32,7 @@ export default function Jobs() {
     ]
     return (
         <div className="bg-fbfbfb">
-            <section className="sm:px-24 px-12 sm:pt-8 sm:pb-12 mx-auto 2xl:container pb-10 overflow-hidden">
+            <section className="sm:px-24 px-5 sm:pt-8 sm:pb-12 mx-auto 2xl:container pb-10 overflow-hidden">
                 <h3 className="font-black sm:text-3xl text-2xl pt-14 w-full text-center">Recently Added Jobs</h3>
                 <p className="text-969696 pt-5 sm:text-base text-xs text-center sm:px-44">
                     Lorarn ipsum dolor sit amnet, consoctotur ad piscing oft.
@@ -46,13 +46,13 @@ export default function Jobs() {
                     ))}
                 </div> */}
             </section>
-            <section className="sm:px-24 px-12 sm:pt-5  mx-auto 2xl:container  overflow-hidden">
+            <section className="sm:px-24 px-5 sm:pt-5  mx-auto 2xl:container  overflow-hidden">
 
                 <div className="">
                     <MySwiperComponent jobs={jobs} />
                 </div>
             </section>
-            <section className="sm:px-24 px-12 sm:pt-3 sm:pb-20 mx-auto 2xl:container pb-10 overflow-hidden">
+            <section className="sm:px-24 px-5 sm:pt-3 sm:pb-20 mx-auto 2xl:container pb-10 overflow-hidden">
                 <div className="flex justify-center pt-5">
                     <button className=" text-my-green border-my-green sm:py-3 py-2 sm:px-5 px-2.5  border-2 rounded-lg w-fit sm:text-base text-sm">View more</button>
 
@@ -62,7 +62,7 @@ export default function Jobs() {
 
 
                 <div className="flex sm:flex-row flex-col sm:justify-between items-center">
-                    <div className="flex flex-col sm:w-54 sm:px-0 px-12">
+                    <div className="flex flex-col sm:w-54 sm:px-0 ">
                         <p className="text-969696  sm:text-base text-xs sm:text-left text-center pt-5 sm:pr-7">
                             Lorarn ipsum dolor sit amnet, consoctotur ad piscing oft.
                             Sod quis lacus non orci auismod -vostibulum vitoo ul. ax.
@@ -80,11 +80,11 @@ export default function Jobs() {
                             </p>
                             <div className='flex   rounded-xl sm:text-base text-xxxs sm:justify-start justify-center'>
                                 <a href="/">
-                                    <Image className=' sm:mr-3 mr-1 sm:w-fit sm:h-fit w-2 h-2' src={l} alt="Search Icon"></Image>
+                                    <Image className=' sm:mr-3 mr-1 sm:w-fit sm:h-fit w-5 h-5' src={l} alt="Search Icon"></Image>
 
                                 </a>
                                 <a href="/">
-                                    <Image className=' sm:mr-3 mr-1 sm:w-fit sm:h-fit w-2 h-2' src={r} alt="Search Icon"></Image>
+                                    <Image className=' sm:mr-3 mr-1 sm:w-fit sm:h-fit w-5 h-5' src={r} alt="Search Icon"></Image>
 
 
                                 </a>
@@ -104,8 +104,8 @@ export default function Jobs() {
                             Full Stack Developer  in Xreact Tech
                         </p>
                         <div className='flex   rounded-xl sm:text-base text-xxxs sm:justify-start justify-center'>
-                            <Image className=' sm:mr-3 mr-1 sm:w-fit sm:h-fit w-2 h-2' src={l} alt="Search Icon"></Image>
-                            <Image className=' sm:mr-3 mr-1 sm:w-fit sm:h-fit w-2 h-2' src={r} alt="Search Icon"></Image>
+                            <Image className=' sm:mr-3 mr-1 sm:w-fit sm:h-fit w-5 h-5' src={l} alt="Search Icon"></Image>
+                            <Image className=' sm:mr-3 mr-1 sm:w-fit sm:h-fit w-5 h-5' src={r} alt="Search Icon"></Image>
                         </div>
                     </div>
 
